@@ -21,9 +21,11 @@ ul{
 button{
     color: #E5E7EB;
     background-color: #3882F6;
+    border-color: #3882F6;
     border-radius: 12px;
     padding: 4px 16px;
     max-width: 100px;
+    border-style: solid;
 }
 
 .header,
@@ -134,4 +136,31 @@ button{
     font-weight: bolder;
 }
 
+.fourth-section{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-box{
+    background-color: #3882F6;
+    width: 600px;
+    padding: 50px 50px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-text{
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+}
+
+.action-box button{
+    border-color: white;
+    color: white;
+    text-align: center;
+    padding: 8px 25px;
+}
 
