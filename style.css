@@ -164,3 +164,12 @@ button{
     padding: 8px 25px;
 }
 
+.footer{
+    padding: 35px 0px;
+    text-align: center;
+}
+
+.footer .text{
+    font-size: 14px;
+}
+
